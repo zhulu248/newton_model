@@ -1,0 +1,20 @@
+{
+  "scene": {
+    "usd_path": "assets/usd/block_on_plane/block_on_plane.usd",
+    "block_prim_path": "/World/block"
+  },
+  "run": {
+    "dt": 0.0041666667,
+    "steps": 720
+  },
+  "block": {
+    "mass_kg": 1.0
+  },
+  "contact": {
+    "mu_static": 0.6,
+    "mu_dynamic": 0.5
+  },
+  "logging": {
+    "rate_hz": 60
+  }
+}
